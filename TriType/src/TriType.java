@@ -15,9 +15,9 @@ which has sides of these lengths.
 1 = isoceles triangle
 0 = other triangle
 */
-	public int Tritype(double i, double j, double k){
+	public int Tritype(int i, int j, int k){
 		int trityp = 0;
-		if (i < 0.0 || j < 0.0 || k < 0.0)          // line 10  
+		if (i < 0 || j < 0 || k < 0)          // line 10  
 			return 3;
 		if (i + j <= k || j + k <= i || k + i <= j) // line 12 
 			return 3;    
