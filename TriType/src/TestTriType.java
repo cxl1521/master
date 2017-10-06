@@ -15,5 +15,8 @@ public class TestTriType {
 	@Test
 	public void test() {
 		assertEquals(t.Tritype(0, 0, 0), 3);
+		assertEquals(t.Tritype(2, 3, 4), 0);
+		assertEquals(t.Tritype(3, 3, 4), 1);
+		assertEquals(t.Tritype(3, 3, 3), 2);
 	}
 }
